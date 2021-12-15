@@ -22,7 +22,7 @@ services:
       - mail__options__auth__pass=${MAIL_OPTIONS_AUTH_PASS}
       - mail__from=${MAIL_FROM}
     volumes:
-      - ghost-data:/var/lib/ghost/content
+      - viasnake-data:/var/lib/ghost/content
 
 volumes:
-  ghost-data:
+  viasnake-data:
