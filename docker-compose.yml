@@ -3,7 +3,7 @@ version: "3"
 services:
 
   viasnake:
-    image: ghost:5
+    image: ghost:4.48.1
     container_name: viasnake
     restart: always
     ports:
